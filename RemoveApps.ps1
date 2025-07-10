@@ -1,4 +1,4 @@
-$appstoRemove = @("Paint", "OutlookforWindows", "BingSearch", "QuickAssist", "MSTeams", "Edge.GameAssist")
+$appstoRemove = @("OutlookforWindows", "BingSearch", "QuickAssist", "MSTeams", "Edge.GameAssist")
 
 foreach ($app in $appstoremove) {
 	try {
