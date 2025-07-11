@@ -145,6 +145,7 @@ $body = @{
     }
     templateParameters = @{
         vmName     = $vm # Make sure this is the correct value
+        location   = "DeploymentTEST"
     }
 } | ConvertTo-Json -Depth 10
 
