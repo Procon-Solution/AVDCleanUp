@@ -104,7 +104,7 @@ catch {
 }
 
 # Configure agent
-.\config.cmd --unattended --environment --environmentname "DeploymentTEST" --agent $env:COMPUTERNAME --runasservice --work '_work' --url 'https://dev.azure.com/Procon-Solution/' --projectname 'Procon-Operations' --auth PAT --token "5lOoTzH2mce2PxbPycivZLyLCsRkWx4ZWOQPPbjhIlPRwokXyLGmJQQJ99ALACAAAAAXFLSwAAASAZDOhlDv" --acceptteeeula
+.\config.cmd --unattended --environment --environmentname "DeploymentTEST" --agent $env:COMPUTERNAME --runasservice --work '_work' --url 'https://dev.azure.com/Procon-Solution/' --projectname 'Procon-Operations' --auth PAT --token "8DFGdQb9lQ6wWzdelptibLlWSf21ZdW9EDE9ATZi3LnsdBepa9o4JQQJ99BGACAAAAAXFLSwAAASAZDO2O4O" --acceptteeeula
 
     # Cleanup with error handling
     try {
